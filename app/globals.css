@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+}
+
+.red-gradient {
+  background: linear-gradient(92deg, #ff5956 2.87%, #ee1e38 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:root {
+  color-scheme: dark;
+}
+.anime__card--img {
+  height: 37vh;
+}
+@media screen and (max-width: 768px) {
+  .hide {
+    display: none !important;
+  }
+  .anime__card--img {
+    height: 50vh;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+}
