@@ -14,6 +14,4 @@ Having it within your core.
 
 ## Thank you
 
-Special thanks to Thenlie from JSMastery for answering my questions.
-
-
+Special thanks to Thenlie and ChooKing from JSMastery for answering my questions.

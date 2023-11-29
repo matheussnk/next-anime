@@ -1,5 +1,8 @@
 "use server";
-const MAX_LIMIT = 8;
+
+import AnimeCard, { AnimeProp } from "@/components/AnimeCard";
+
+const MAX_LIMIT = 12;
 
 export async function fetchAnime(page: number) {
   const response = await fetch(
@@ -8,5 +11,7 @@ export async function fetchAnime(page: number) {
 
   const data = await response.json();
 
-  return data;
+  return data.map((anime: AnimeProp, index: number) => (
+    <AnimeCard key={anime.id} anime={anime} index={index} />
+  ));
 }
