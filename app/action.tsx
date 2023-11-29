@@ -1,5 +1,5 @@
 "use server";
-const MAX_LIMIT = 48;
+const MAX_LIMIT = 8;
 
 export async function fetchAnime(page: number) {
   const response = await fetch(
