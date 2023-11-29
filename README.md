@@ -1,6 +1,6 @@
 # Next Anime
 
-![NextAnime](https://imgur.com/4Te8rF4.png)
+![NextAnime](https://imgur.com/ZwvaATq.png)
 
 An application built with NextJs 14 using best practices.
 
