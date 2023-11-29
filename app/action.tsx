@@ -2,7 +2,7 @@
 
 import AnimeCard, { AnimeProp } from "@/components/AnimeCard";
 
-const MAX_LIMIT = 8;
+const MAX_LIMIT = 12;
 
 export async function fetchAnime(page: number) {
   const response = await fetch(
